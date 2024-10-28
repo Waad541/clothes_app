@@ -2,9 +2,9 @@ import 'package:flutter/material.dart';
 
 import 'clothes_contanier.dart';
 
-class DetailScreen extends StatelessWidget {
+class HomeDetailChildren extends StatelessWidget {
   static const String routeName = 'detail';
-  const DetailScreen({super.key});
+  const HomeDetailChildren({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -43,16 +43,16 @@ class DetailScreen extends StatelessWidget {
               price: '300',
             ),
             ClothesContanier(
-              image: 'assets/images/image_child1.jpg',
-              price: '190',
+              image: 'assets/images/image_child8.jpg',
+              price: '280',
             ),
             ClothesContanier(
-              image: 'assets/images/image_child2.jpg',
+              image: 'assets/images/image_child9.jpg',
               price: '250',
             ),
             ClothesContanier(
-              image: 'assets/images/image_child3.jpg',
-              price: '300',
+              image: 'assets/images/image_child1.jpg',
+              price: '190',
             ),
             ClothesContanier(
               image: 'assets/images/image_child2.jpg',

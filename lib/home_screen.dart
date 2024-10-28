@@ -1,4 +1,4 @@
-import 'package:clothes_app/detail_screen.dart';
+import 'package:clothes_app/home_detail_children.dart';
 import 'package:clothes_app/home_detail_men.dart';
 import 'package:clothes_app/home_detail_women.dart';
 import 'package:flutter/material.dart';
@@ -81,7 +81,7 @@ class HomeScreen extends StatelessWidget {
             ),
             GestureDetector(
               onTap: () {
-                Navigator.pushNamed(context, DetailScreen.routeName);
+                Navigator.pushNamed(context, HomeDetailChildren.routeName);
               },
               child: Center(
                 child: Container(

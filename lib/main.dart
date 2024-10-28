@@ -1,4 +1,4 @@
-import 'package:clothes_app/detail_screen.dart';
+import 'package:clothes_app/home_detail_children.dart';
 import 'package:clothes_app/home_detail_men.dart';
 import 'package:clothes_app/home_detail_women.dart';
 import 'package:clothes_app/home_screen.dart';
@@ -18,7 +18,7 @@ class MyApp extends StatelessWidget {
       initialRoute: HomeScreen.routeName,
       routes: {
         HomeScreen.routeName:(context)=>HomeScreen(),
-        DetailScreen.routeName:(context)=>DetailScreen(),
+        HomeDetailChildren.routeName:(context)=>HomeDetailChildren(),
         HomeDetailMen.routeName:(context)=>HomeDetailMen(),
         HomeDetailWomen.routeName:(context)=>HomeDetailWomen()
       },
