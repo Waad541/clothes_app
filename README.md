@@ -1,6 +1,6 @@
 # clothes_app
 
-A new Flutter project.
+A new Flutter project for clothes that contains three categories (women, men, children), each category navigate to another screen (detail screen)
 
 ## Getting Started
 
